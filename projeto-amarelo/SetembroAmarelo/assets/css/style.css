@@ -198,3 +198,17 @@ img{
 strong{
     color:#EEAD2D ;
 }
+.conscientizacao{
+    height:500px;
+    background-color:black;
+    display: flex;
+    padding: 50px 20px;
+}
+.titulo-consc h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline #EEAD2D;
+}
+.titulo-consc p{
+    padding: 30px 40px;
+}
