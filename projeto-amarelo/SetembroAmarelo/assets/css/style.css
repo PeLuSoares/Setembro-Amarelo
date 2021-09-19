@@ -120,3 +120,95 @@ img{
     padding: 12px 85px;
     border-radius: 20px;
 }
+.dados{
+    height:500px;
+    background-color:black;
+    display: flex;
+    padding: 50px 20px;
+}
+.teste-titulo{
+    padding: 10px ;
+    display: inline-block;
+    border-radius: 45px;
+    width: 95px;
+    height: 95px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    border-color: #EEAD2D;
+}
+.teste-titulo2{
+    padding: 10px ;
+    border-radius: 45px;
+    display: inline-block;
+    background-color: lightyellow;
+    width: 95px;
+    height: 95px;
+    margin: auto;
+    border-style: solid;
+    border-color: #EEAD2D;
+}
+.teste-titulo3{
+    padding: 10px ;
+    border-radius: 45px;
+    display: inline-block;
+    background-color:white;
+    width: 95px;
+    height: 95px;
+    margin: auto;
+    border-style: solid;
+    border-color: #EEAD2D;
+}
+.titulo-dados{
+    display: inline-block;
+    width: 48%;
+    color: white;
+    height: 300px;
+}
+.titulo-dados h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline #EEAD2D;
+}
+.titulo-dados p{
+    padding: 30px 40px;
+}
+.divisoria{
+    background-color: white;
+    background-image: linear-gradient(to bottom, #414242,#D3DCDA,#BEC2C1
+,#404746,#8C8F8E);
+    width: 6px;
+    height: 430px;
+    display: inline-block;
+}
+.texto-dados{
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    padding: 0px 34px; 
+}
+.texto-dados h2{
+    font-weight: bold;
+}
+.texto-dados p{
+    justify-content: flex-end;
+    padding: 10px 0px;
+}
+strong{
+    color:#EEAD2D ;
+}
+.conscientizacao{
+    height:500px;
+    background-color:black;
+    display: flex;
+    padding: 50px 20px;
+}
+.titulo-consc h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline #EEAD2D;
+}
+.titulo-consc p{
+    padding: 30px 40px;
+}
