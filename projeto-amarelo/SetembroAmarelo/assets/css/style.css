@@ -174,7 +174,7 @@ img{
     border-radius: 45px;
     width: 95px;
     height: 95px;
-    background-color: white;
+    background-color: lightyellow;
     text-align: center;
     margin: auto;
     border-style: solid;
@@ -195,7 +195,7 @@ img{
     padding: 10px ;
     border-radius: 45px;
     display: inline-block;
-    background-color:white;
+    background-color:lightyellow;
     width: 95px;
     height: 95px;
     margin: auto;
