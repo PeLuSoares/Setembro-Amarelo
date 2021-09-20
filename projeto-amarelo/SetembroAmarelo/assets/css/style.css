@@ -23,6 +23,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.texto-titulo {
+    color: yellow;
+    cursor: pointer;
+    text-decoration: none;
+}
 .logo {
     width: 100px;
 }
