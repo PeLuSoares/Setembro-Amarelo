@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script type="text/javascript" src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
     <title>Conscientização Setembro Amarelo</title>
 </head>
 <body>
@@ -19,9 +21,8 @@
             <nav>
                 <ul>
                     <li class="active"><a href="">Home</a></li>
-                    <li><a href="">Dados</a></li>
-                    <li><a href="">Conscientização</a></li>
-                    <li><a href="">Busque Ajuda</a></li>
+                    <li><a href="#dados">Dados</a></li>
+                    <li><a href="#titulo-consc">Conscientização</a></li>
 
                 </ul>
             </nav>
@@ -29,8 +30,20 @@
     </div>
 </header>
 <main>
+    
     <section class="banner">
         <div class="slidearea">
+            <div id="ajuda-container">
+                <div id="fechar">&times;</div>
+                <h2>Necessita de ajuda?</h2>
+                <p>Caso esteja precisando de ajuda, você pode acessar o site do CVV para abrir um chat de conversa ao vivo, um vonluntário irá conversar com você e te ajudar. Caso não posso conversar por chat on-line, sinta-se à vontade para ligar! O número encontra-se nessa janela.</p>
+                <a href="https://www.cvv.org.br/" button type="button" id="CVV">ACESSE CVV</button></a>
+                <p id="numero">LIGUE 188</p>
+            
+    
+    
+            </div>
+            <div id="main-frase">
                 <div class="cada">
                     Cada
                 </div>
@@ -40,19 +53,23 @@
                 <div class="importa">
                     Importa
                 </div>
-                <div class="link">
-                    <a href="">Busque Ajuda</a>
-                </div>
+            </div>
+
+            <div id="link">
+                <button id="ajuda-mostrar" type="button">Busque Ajuda</button> 
+            </div>
         </div>
     </section>
     <section>
-        <div class="dados">
+        <div id="dados">
             <div class="titulo-dados">
                 <h1>Dados</h1>
                 <p>Entre 700 mil e 800 mil pessoas no mundo morrem por suicídio a cada ano. No Brasil, ocorrem cerca de 12 mil suicídios por ano</p>
-                <div class="teste-titulo"><img src="assets/images/choroUX.png"/></div>
-                <div class="teste-titulo2"><img src="assets/images/duvidaUX.png"/></div>
-                <div class="teste-titulo3"><img src="assets/images/indecisoUX.png"/></div>
+                    <div class="imagens-titulo-dados">
+                        <div class="teste-titulo"><img src="assets/images/choroUX.png"/></div>
+                        <div class="teste-titulo2"><img src="assets/images/duvidaUX.png"/></div>
+                        <div class="teste-titulo3"><img src="assets/images/indecisoUX.png"/></div>
+                    </div>
             </div>
             <div class="divisoria"></div>
             <div class="texto-dados">
@@ -74,7 +91,7 @@
     <section class="cara">
         <div class="divisoriaa"></div>
         <div class="conscientizacao">
-            <div class="titulo-consc">
+            <div id="titulo-consc">
                 <h1>Conscientização</h1>
                 <p>A Organização Mundial da Saúde (OMS) alerta que nove em cada dez mortes por suicídio podem ser evitadas. 
                     Por isso, para diminuir as estatísticas, o diálogo sobre o tema é fundamental. “Precisamos conscientizar as pessoas, 

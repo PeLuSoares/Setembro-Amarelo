@@ -9,6 +9,7 @@ body {
 }
 header {
     height: 100px;
+    width: 100%;
     background-color: #1A1A1C;
     color: white;
 }
@@ -64,6 +65,7 @@ img{
     background-image: url('../images/bgsad.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: scroll ;
 }
 .banner .slidearea {
     display: flex;
@@ -78,38 +80,71 @@ img{
     font-size: 45px;
     padding: 8px;
 }
-.cada {
+#ajuda-container{
+    width: 45%;
+    padding: 20px;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    background-color: #2A2E34;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    display: none;
+    opacity: 0.8;
+    text-align: center;
+}
+#ajuda-container p{
+    margin-top: 10px;
+}
+#numero{
+    float: right;
+    font-weight: bold;
+    color: #EEAD2D;
+    margin-top: 10px;
+}
+#CVV{
+    float: left;
+    text-transform: uppercase;
     background-color: #EEAD2D;
-    color: black;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    opacity: 0.7;
-    margin-top: 520px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 3px 2px;
+    border-radius: 13px;
+    border: none;
+    margin-top: 10px;
 
 }
-.vida {
-    background-color: #EEAD2D;
-    color: #E9EFE5;
-    opacity: 0.7;
-    margin-top: 520px;
-
+#fechar{
+    float: right;
 }
-.importa {
+#main-frase{
+    height: auto;
+    width: auto;
+    display: flex;
+    background-color: #EEAD2D;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #EEAD2D;
-    color: black;
-    opacity: 0.7;
-    margin-top: 520px;
-
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    opacity: 0.8;
 }
-.link {
+.cada {
+    color: black;
+}
+.vida {
+    color: #E9EFE5; 
+}
+.importa {
+    color: black;
+}
+#link {
     position: absolute;
     z-index: 20;
     bottom: 83px;
     left: 800px;
 }
-.link a{
+#link button{
     display: block;
     background-color: #DEB871;
     color: white;
@@ -119,8 +154,10 @@ img{
     text-decoration: none;
     padding: 12px 85px;
     border-radius: 20px;
+    border: none;
+    opacity: 95%;
 }
-.dados{
+#dados{
     height:500px;
     background-color:black;
     display: flex;
@@ -170,9 +207,16 @@ img{
     font-size: 50px;
     font-weight: bold;
     text-decoration: underline #EEAD2D;
+    text-align: center;
+}
+.imagens-titulo-dados{
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 20%;
 }
 .titulo-dados p{
     padding: 30px 40px;
+    text-align: center;
 }
 .divisoria{
     background-color: white;
@@ -194,6 +238,7 @@ img{
 .texto-dados p{
     justify-content: flex-end;
     padding: 10px 0px;
+    text-align: center;
 }
 strong{
     color:#EEAD2D ;
@@ -204,11 +249,13 @@ strong{
     display: flex;
     padding: 50px 20px;
 }
-.titulo-consc h1{
+#titulo-consc h1{
     font-size: 50px;
     font-weight: bold;
     text-decoration: underline #EEAD2D;
+    text-align: center;
 }
-.titulo-consc p{
+#titulo-consc p{
     padding: 30px 40px;
+    text-align: center;
 }
